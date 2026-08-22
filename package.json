@@ -1,0 +1,24 @@
+{
+  "name": "exam-coach-agent-forge",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/core.mjs && node --check src/qwen.mjs && node --check scripts/sponsors/*.mjs && npm test",
+    "sponsor:check": "node scripts/sponsors/field_check.mjs",
+    "sponsor:qwen": "node scripts/sponsors/qwen_smoke.mjs",
+    "sponsor:daytona": "node scripts/sponsors/daytona_validate.mjs",
+    "sponsor:nosana": "node scripts/sponsors/nosana_batch_job.mjs",
+    "sponsor:bright": "node scripts/sponsors/bright_data_refresh.mjs"
+  },
+  "dependencies": {
+    "@daytona/sdk": "^0.204.1",
+    "@nosana/kit": "^2.7.4"
+  },
+  "license": "MIT"
+}
+

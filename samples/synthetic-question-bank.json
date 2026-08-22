@@ -1,0 +1,19 @@
+{
+  "notice": "Synthetic structure-only sample. It is not copied from an exam, textbook, or lecture.",
+  "questions": [
+    {
+      "id": "SAMPLE-ROUND1-SUBJECT-A-Q1",
+      "round": 1,
+      "subjectCode": "SUBJECT_A",
+      "questionNo": 1,
+      "answer": "B",
+      "choices": {
+        "A": "Synthetic distractor A",
+        "B": "Synthetic correct answer",
+        "C": "Synthetic distractor C",
+        "D": "Synthetic distractor D"
+      }
+    }
+  ]
+}
+
