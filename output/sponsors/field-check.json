@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "project": "Exam Coach",
+  "generatedAt": "2026-08-22T06:16:48Z",
+  "mode": "mixed-live",
+  "adapterReadyCount": 4,
+  "configuredCount": 2,
+  "verifiedCount": 2,
+  "failedCount": 0,
+  "integrations": [
+    {
+      "id": "bright-data",
+      "name": "Bright Data",
+      "purpose": "보험개발원 공개 게시판의 갱신 응답과 원문 해시 확인",
+      "adapter": "scripts/sponsors/bright_data_refresh.mjs",
+      "adapterSha256": "05e3b09ec0d838769a315fd407fc20b455e49be610e325bba64bd38277c6cc3b",
+      "adapterReady": true,
+      "configured": false,
+      "requiredSecrets": [
+        "BRIGHT_DATA_API_KEY",
+        "BRIGHT_DATA_ZONE"
+      ],
+      "durationMs": 31,
+      "status": "adapter-ready",
+      "proof": "실행 어댑터 구문 점검 완료",
+      "error": null
+    },
+    {
+      "id": "daytona",
+      "name": "Daytona",
+      "purpose": "1,200문항의 ID·답안·보기 구조를 격리 샌드박스에서 검증",
+      "adapter": "scripts/sponsors/daytona_validate.mjs",
+      "adapterSha256": "5d957cf16fb88b65900080a554c6d34a0eac29822d527535183cbf3081642d33",
+      "adapterReady": true,
+      "configured": true,
+      "requiredSecrets": [
+        "DAYTONA_API_KEY"
+      ],
+      "durationMs": 3200,
+      "status": "verified",
+      "proof": "Daytona SSH Linux 샌드박스에서 1,200문항·고유 ID 1,200개·3과목·40~49회·누락 0건 검증",
+      "evidenceFile": "output/sponsors/daytona-live-2026-08-22.json",
+      "evidenceSha256": "9f1bbe004cfa60a3d5cb394d6f0711ba315b8e0b3a4110cc83854cf13d2864f0",
+      "error": null
+    },
+    {
+      "id": "nosana",
+      "name": "Nosana",
+      "purpose": "문항 일괄 분류용 GPU 작업 정의와 제출 결과 확인",
+      "adapter": "scripts/sponsors/nosana_batch_job.mjs",
+      "adapterSha256": "6b46aacd270f83780e8755958029d962287be01a7c113d6f0fcf3a0a00ccee38",
+      "adapterReady": true,
+      "configured": true,
+      "requiredSecrets": [
+        "NOSANA_API_KEY",
+        "NOSANA_MARKET"
+      ],
+      "durationMs": 3045,
+      "status": "verified",
+      "proof": "Nosana 메인넷 NVIDIA 3060 마켓에 Qwen 2.5 3B GPU 추론 작업 등록 및 트랜잭션·Job·Run ID 발급",
+      "evidenceFile": "output/sponsors/nosana-live-2026-08-22.json",
+      "evidenceSha256": "b969d21068302f8c2baeb4c8600ea23772c3d8cae0d5900924513a131b7027c1",
+      "error": null
+    },
+    {
+      "id": "qwen-cloud",
+      "name": "Qwen Cloud",
+      "purpose": "근거 제한 진단 모델의 최소 JSON 응답 확인",
+      "adapter": "scripts/sponsors/qwen_smoke.mjs",
+      "adapterSha256": "9f3793285af94acdae73124d81aba564fe0905ab108aa1f8039fa1633156b196",
+      "adapterReady": true,
+      "configured": false,
+      "requiredSecrets": [
+        "DASHSCOPE_API_KEY"
+      ],
+      "durationMs": 31,
+      "status": "adapter-ready",
+      "proof": "실행 어댑터 구문 점검 완료",
+      "error": null
+    }
+  ]
+}

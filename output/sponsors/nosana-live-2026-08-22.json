@@ -1,0 +1,18 @@
+{
+  "provider": "Nosana",
+  "network": "mainnet",
+  "mode": "live",
+  "verifiedAt": "2026-08-22T06:16:48Z",
+  "purpose": "문항 일괄 분류용 GPU 추론 작업 등록",
+  "market": "nvidia-3060",
+  "containerImage": "vllm/vllm-openai:v0.9.2",
+  "model": "Qwen/Qwen2.5-3B-Instruct",
+  "timeoutSeconds": 3600,
+  "ipfsHash": "QmQAfTjhQCRaaATeB1Eu4mhRLo3o2PNJnFCjDTwSWYQ4dV",
+  "transaction": "52tH4ddTyJVHmKYpvauG4CcQsEdWBFXn9Y7zYDhQPhJLX1t3Fha5XsrESvjzTCkDCEpWKtyVsmTJwa1anAkpXRQn",
+  "job": "59Zcw8oncDuTFdVBXBRxooAnAYWYdcaJMMMmciRywc4o",
+  "run": "C7JdA2vqwHQHPXocyC6kye6YATujWRajMXp8ZAHA73yT",
+  "costUSD": 0.044,
+  "creditsUsed": 44,
+  "verified": true
+}

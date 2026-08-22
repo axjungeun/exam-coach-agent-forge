@@ -13,7 +13,7 @@ const jobDefinition = {
       id: "exam-coach-batch-classifier",
       type: "container/run",
       args: {
-        image: "vllm/vllm-openai:latest",
+        image: "vllm/vllm-openai:v0.9.2",
         cmd: [
           "--model",
           process.env.NOSANA_MODEL ?? "Qwen/Qwen2.5-3B-Instruct",
@@ -60,7 +60,7 @@ const job = await client.api.jobs.list(
   {
     ipfsHash,
     market: process.env.NOSANA_MARKET,
-    timeout: 1800,
+    timeout: 3600,
   },
   { idempotencyKey: generateIdempotencyKey() },
 );

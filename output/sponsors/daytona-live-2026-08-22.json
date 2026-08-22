@@ -1,0 +1,28 @@
+{
+  "provider": "Daytona SSH Sandbox",
+  "validatedAt": "2026-08-22T06:07:09.724488+00:00",
+  "python": "3.14.4",
+  "platform": "Linux",
+  "questionCount": 1200,
+  "uniqueIds": 1200,
+  "subjects": [
+    "BIZ",
+    "CONTRACT",
+    "THEORY"
+  ],
+  "rounds": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "invalidChoiceCounts": 0,
+  "missingAnswers": 0,
+  "valid": true
+}
