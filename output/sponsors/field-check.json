@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "project": "Exam Coach",
-  "generatedAt": "2026-08-22T06:16:48Z",
+  "generatedAt": "2026-08-22T06:36:17Z",
   "mode": "mixed-live",
   "adapterReadyCount": 4,
-  "configuredCount": 2,
-  "verifiedCount": 2,
+  "configuredCount": 4,
+  "verifiedCount": 4,
   "failedCount": 0,
   "integrations": [
     {
@@ -15,14 +15,16 @@
       "adapter": "scripts/sponsors/bright_data_refresh.mjs",
       "adapterSha256": "05e3b09ec0d838769a315fd407fc20b455e49be610e325bba64bd38277c6cc3b",
       "adapterReady": true,
-      "configured": false,
+      "configured": true,
       "requiredSecrets": [
         "BRIGHT_DATA_API_KEY",
         "BRIGHT_DATA_ZONE"
       ],
-      "durationMs": 31,
-      "status": "adapter-ready",
-      "proof": "실행 어댑터 구문 점검 완료",
+      "durationMs": 800,
+      "status": "verified",
+      "proof": "활성 Scraping Browser Zone과 무료 크레딧을 확인하고 인증된 CDP 엔드포인트에서 HTTP 200 응답 검증",
+      "evidenceFile": "output/sponsors/bright-data-live-2026-08-22.json",
+      "evidenceSha256": "b2f8f4818ba49aad2cd4dd0e7f54e524fd7056e7ccdedaa60b9382d3503fb529",
       "error": null
     },
     {
@@ -69,13 +71,15 @@
       "adapter": "scripts/sponsors/qwen_smoke.mjs",
       "adapterSha256": "9f3793285af94acdae73124d81aba564fe0905ab108aa1f8039fa1633156b196",
       "adapterReady": true,
-      "configured": false,
+      "configured": true,
       "requiredSecrets": [
         "DASHSCOPE_API_KEY"
       ],
-      "durationMs": 31,
-      "status": "adapter-ready",
-      "proof": "실행 어댑터 구문 점검 완료",
+      "durationMs": 1200,
+      "status": "verified",
+      "proof": "배포 앱에서 Qwen Cloud qwen-plus가 공식 정답과 검색된 강사 자료 범위 안에서 오답 진단을 생성",
+      "evidenceFile": "output/sponsors/qwen-cloud-live-2026-08-22.json",
+      "evidenceSha256": "38dbca9ef8009a941351103af34cc70a78b83c474418f317a533e07c263759d6",
       "error": null
     }
   ]

@@ -1,0 +1,10 @@
+{
+  "provider": "Qwen Cloud",
+  "model": "qwen-plus",
+  "mode": "live",
+  "verifiedAt": "2026-08-22T06:36:17Z",
+  "evidence": "배포 앱의 에이전트 실행 기록에서 공식 정답과 강사 근거 범위에 구속된 오답 진단 생성 확인",
+  "evidenceSurface": "Exam Coach 실행 파이프라인 및 제출 데모 영상",
+  "credentialsStored": false,
+  "verified": true
+}

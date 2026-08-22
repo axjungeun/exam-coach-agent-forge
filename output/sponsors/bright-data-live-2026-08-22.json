@@ -1,0 +1,13 @@
+{
+  "provider": "Bright Data",
+  "product": "Scraping Browser",
+  "mode": "live",
+  "verifiedAt": "2026-08-22T06:36:17Z",
+  "zoneActive": true,
+  "creditBalance": "5000/5000",
+  "protocol": "CDP over WSS",
+  "authenticationProbe": "/json/version",
+  "httpStatus": 200,
+  "credentialsStored": false,
+  "verified": true
+}
