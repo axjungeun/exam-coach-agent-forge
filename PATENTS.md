@@ -1,9 +1,8 @@
 # Patent Notice
 
-A Korean patent application using a temporary specification was filed on
-2026-08-19 for aspects of the AI Exam Coach system. The application is pending;
-this statement does not represent that a patent has been granted or that any
-particular claim will be allowed.
+A Korean patent application relating to AI Exam Coach was filed on 2026-08-20.
+The application is pending; this statement does not represent that a patent
+has been granted or that any particular claim will be allowed.
 
 Except as required by applicable law or granted in a separate written
 agreement signed by the rights holder, no express patent license is granted for
