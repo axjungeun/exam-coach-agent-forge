@@ -2,6 +2,8 @@
 
 **Agent Forge AI Hackathon Seoul 2026 · Solo build by Jungeun Lee**
 
+> **Award:** **2nd Place**, Agent Forge AI Hackathon Seoul 2026, 2026-08-22. The public submission bundle is frozen as [`v0.1 - Agent Forge Seoul Edition`](docs/agent-forge-seoul-2026-2nd-place.md) under the Git tag `agent-forge-seoul-2026-2nd-place`.
+
 AI Exam Coach turns an answer into an evidence-bound learning action. It maps a selected distractor to a concept-confusion code, connects that code to the exact instructor-owned lesson or textbook location, schedules a retry, and aggregates the same signal into an instructor reinforcement priority.
 
 ## Live Demo
@@ -56,6 +58,16 @@ This public submission intentionally excludes copyrighted exam text, paid course
 - Core workflow functions: automated tests included.
 
 Machine-readable, secret-free evidence is stored in [`output/sponsors`](output/sponsors), with the consolidated state in [`app/data/sponsor-readiness.json`](app/data/sponsor-readiness.json). All four sponsor integrations were live-verified at submission; credentials are never stored in this repository.
+
+## Award Version and Roadmap
+
+- `v0.1`: Agent Forge Seoul Edition, frozen 2nd Place submission
+- `v0.2`: stronger RAG and evidence retrieval
+- `v0.3`: learner memory and weak-concept tracking
+- `v0.4`: personalized learning agent
+- `v1.0`: objective and constructed-response Exam Coach
+
+The roadmap items are plans, not implemented-feature claims. See the [award-version record](docs/agent-forge-seoul-2026-2nd-place.md) for the frozen architecture, run instructions, evidence, and limitations.
 
 ## License
 
