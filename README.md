@@ -69,6 +69,11 @@ Machine-readable, secret-free evidence is stored in [`output/sponsors`](output/s
 
 The roadmap items are plans, not implemented-feature claims. See the [award-version record](docs/agent-forge-seoul-2026-2nd-place.md) for the frozen architecture, run instructions, evidence, and limitations.
 
-## License
+## Rights and Patent Notice
 
-MIT for the source code in this repository. No rights are granted to external exam, textbook, or lecture content.
+- The frozen `v0.1 - Agent Forge Seoul Edition` tag remains under the MIT License included in that historical release.
+- Source code and documentation first published after v0.1 are proprietary and all rights are reserved. Public visibility is for evaluation and portfolio review, not a grant of permission to reuse or deploy the work.
+- A Korean patent application using a temporary specification was filed on 2026-08-19. The application is pending; no patent grant is claimed.
+- No rights are granted to external exam, answer-key, textbook, lecture, or learner content.
+
+See [`LICENSE`](LICENSE) and [`PATENTS.md`](PATENTS.md). The public award tag remains reproducible, while subsequent product development is licensed separately.

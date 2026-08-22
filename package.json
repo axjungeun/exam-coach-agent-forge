@@ -1,7 +1,7 @@
 {
   "name": "exam-coach-agent-forge",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
   "type": "module",
   "engines": {
     "node": ">=22"
@@ -19,6 +19,5 @@
     "@daytona/sdk": "^0.204.1",
     "@nosana/kit": "^2.7.4"
   },
-  "license": "MIT"
+  "license": "UNLICENSED"
 }
-
