@@ -33,7 +33,7 @@ npm run check
 # Live Qwen check
 DASHSCOPE_API_KEY=... npm run sponsor:qwen
 
-# Optional sponsor adapters
+# Live sponsor adapters
 BRIGHT_DATA_API_KEY=... BRIGHT_DATA_ZONE=... npm run sponsor:bright
 DAYTONA_API_KEY=... npm run sponsor:daytona
 npm run sponsor:nosana                       # safe dry-run
@@ -49,9 +49,13 @@ This public submission intentionally excludes copyrighted exam text, paid course
 ## Verified at Submission
 
 - Qwen Cloud `qwen-plus`: live response received and validated.
+- Bright Data: authenticated Scraping Browser endpoint returned HTTP 200.
+- Daytona: isolated Linux sandbox validated 1,200 questions, 1,200 unique IDs, 3 subjects, rounds 40-49, and 0 missing records.
+- Nosana: mainnet NVIDIA 3060 job registered and returned transaction, job, and run identifiers.
 - Cloudflare Worker: production deployment completed.
 - Core workflow functions: automated tests included.
-- Bright Data, Daytona, Nosana: code adapters included; live execution is not claimed without response evidence.
+
+Machine-readable, secret-free evidence is stored in [`output/sponsors`](output/sponsors), with the consolidated state in [`app/data/sponsor-readiness.json`](app/data/sponsor-readiness.json). All four sponsor integrations were live-verified at submission; credentials are never stored in this repository.
 
 ## License
 

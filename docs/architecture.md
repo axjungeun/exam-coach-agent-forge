@@ -33,9 +33,9 @@ The production demo is deployed as two Cloudflare Workers. Static UI assets are 
 | Sponsor | Code role | Evidence status at submission |
 |---|---|---|
 | Qwen Cloud | Evidence-bounded diagnosis refinement | Live call verified with `qwen-plus` |
-| Bright Data | Refresh and hash a public-source response | Adapter included; live proof requires organizer-provided key/zone |
-| Daytona | Validate question-bank structure in an isolated sandbox | Adapter included; synthetic sample included |
-| Nosana | Define and submit a GPU batch-classification job | Job definition dry-run verified; live submission requires key/market |
+| Bright Data | Refresh and hash a public-source response | Authenticated Scraping Browser endpoint returned HTTP 200 |
+| Daytona | Validate question-bank structure in an isolated sandbox | Live Linux sandbox validated 1,200 questions with 0 missing records |
+| Nosana | Define and submit a GPU batch-classification job | Mainnet NVIDIA 3060 job returned transaction, job, and run identifiers |
 
 GitHub/account connection alone is not reported as a successful API run.
-
+Secret-free response evidence and SHA-256 hashes are stored in [`../output/sponsors`](../output/sponsors).
