@@ -6,6 +6,8 @@
 |---|---|
 | Event | Agent Forge AI Hackathon Seoul 2026 |
 | Result | 2nd Place |
+| Selection | Audience vote |
+| Completed projects | 18 |
 | Date | 2026-08-22 |
 | Project | AI Exam Coach |
 | Build type | Solo build |
@@ -13,8 +15,9 @@
 | Archive branch | `archive/agent-forge-seoul-2026-2nd-place` |
 | Reviewer Worker version | `adf4a871-3762-491b-8cd1-0e520c1daffa` |
 | Reviewer URL | `https://exam-coach-demo.geilesgruen.workers.dev` |
+| Organizer result | [AI Builders result post](https://x.com/theaibuilders/status/2091084859330691214) |
 
-This result applies to the named Seoul event. No unverified participant or competing-team count is stated.
+The organizing team reported that 18 projects were shipped in one day and named Exam Coach second in the audience-voted top three. The number 18 is a completed-project count, not a participant headcount. This result applies only to the named Seoul event.
 
 ## Preservation boundary
 
@@ -22,7 +25,7 @@ This public tag preserves the source-safe submission bundle, architecture notes,
 
 The full submitted UI, configuration, prompt-governance structure, deck, and demo video are preserved separately in a private full-app snapshot under the same tag name. Development does not continue on either archive branch.
 
-Official organizer photos or result posts may be linked after publication and source verification. This release does not use an unofficial image as an official award image.
+The organizer result post is linked above. Organizer-provided photos and the personal participation certificate are preserved outside this public code repository; this release does not publish personal evidence files or use an unofficial image as an official award image.
 
 ## Core capabilities represented in v0.1
 
